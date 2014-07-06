@@ -9,6 +9,9 @@ module.exports = function(config) {
         'app/bower_components/angular/angular.js',
         'app/bower_components/angular/angular-route.js',
         'app/bower_components/angular-mocks/angular-mocks.js',
+        'bower_components/jquery/dist/jquery.js',
+			  'bower_components/jquery-ui/ui/jquery-ui.js',
+			  'bower_components/angular-ui-sortable/sortable.js',
         'app/scripts/** /*.js',
         'test/unit/** /*.js'
     ],
