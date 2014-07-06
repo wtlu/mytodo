@@ -1,6 +1,14 @@
 'use strict';
 
-angular.module('mytodo', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ngRoute'])
+angular.module('mytodo', [
+								'ngAnimate',
+								'ngCookies',
+								'ngTouch',
+								'ngSanitize',
+								'ngResource',
+								'ngRoute',
+								'ui.sortable'
+							])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
